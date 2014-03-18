@@ -1,0 +1,48 @@
+﻿<?Infragistics.Models format="xaml" version="25"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="4360a50b-4607-41c3-b493-0b525341ec66">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="101d7cf6-c5c9-4e82-85b0-8d2b246f5e17">
+            <Content.Layers>
+                <Layer Id="4ef8f566-6bf5-496d-a811-8604e14b2a06" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2d9fbb0e-23ea-4a01-a53e-220f51577d65" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="d7d28e49-f54c-47a4-80ae-a426dd52b03d" />
+            </Content.Viewbox>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/18/2014 22:29:15" Id="7bb93099-dbe7-4427-8413-cc9d276c0102">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ae3eca29-2b73-4a65-b388-7bac0e851d67">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4ef8f566-6bf5-496d-a811-8604e14b2a06">
+                            <Add.Item>
+                                <Title Text="Mon petit cadies" Id="b478e729-a975-4c77-a1c1-b7e989afc90b" Panel.Bounds="48,184,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ef8f566-6bf5-496d-a811-8604e14b2a06">
+                            <Add.Item>
+                                <TextBox Text="Login" Id="6c61e68d-db22-4b4a-aa6b-559428e4b35f" Panel.Bounds="90,278,197{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ef8f566-6bf5-496d-a811-8604e14b2a06">
+                            <Add.Item>
+                                <PasswordBox Password="password" Id="dc1b327e-0f90-4940-8140-dfe9151ee843" Panel.Bounds="90,338,197{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ef8f566-6bf5-496d-a811-8604e14b2a06">
+                            <Add.Item>
+                                <Icon CatalogId="Checkout" Id="e2479b90-449b-4041-95c9-119dbc2d9a0d" Panel.Bounds="125,80,85{5,2147483647},85{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

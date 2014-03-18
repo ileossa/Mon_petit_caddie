@@ -1,0 +1,193 @@
+﻿<?Infragistics.Models format="xaml" version="25"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="8fea27cd-8944-4d4f-b3d7-aa612dd44b48">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="7eaf208d-ff11-42ee-922b-a9640873d935">
+            <Content.Layers>
+                <Layer Id="f23a883a-10b3-485a-9c2a-e25bef25d545" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9e2c6e00-c14a-4ec5-814c-7b4718443aeb" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="ae9b0ec9-4c8a-45b6-b828-a03ada9d0053" />
+            </Content.Viewbox>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/18/2014 22:52:19" Id="64dafcc1-55f7-433d-bc4d-e2ead2e7f0f0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f446a9ac-1cc1-40ac-aaaf-4c19148d36c0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="0e924a09-891c-4253-bd3c-c07d7a0f1188" Panel.Bounds="25,157,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="5deae46f-4c6e-496e-a3bb-ba026fb82b15" Panel.Bounds="25,218,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="e6564174-554c-44ca-b593-cc6db4992593" Panel.Bounds="87,154,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="c711e69b-85a0-4e61-a1aa-094a2bf7d94b" Panel.Bounds="149,154,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="6a56b420-95b3-42d5-a090-ff3a3fca4950" Panel.Bounds="211,154,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="40baf4cd-ede8-4e35-90a3-9da9591f3839" Panel.Bounds="149,218,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="e3084423-c82a-4c2c-9366-70a3db1f0e28" Panel.Bounds="87,218,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="2a6f2d3c-b736-43e0-8091-46786fc81d88" Panel.Bounds="211,218,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="8754b2a5-d387-49f2-9571-d8b8d310d98e" Panel.Bounds="273,154,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="fec634b9-4e44-4caa-88ea-ea404a8bcce0" Panel.Bounds="25,347,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="1a129071-c01a-4851-bef5-540e70aa0004" Panel.Bounds="273,218,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="8b6aca82-373f-49af-96ae-ceaac4866442" Panel.Bounds="87,347,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="936130c1-625b-4153-9482-e6a4bd95d77e" Panel.Bounds="149,347,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="03d077a9-6c6c-4c5b-947e-940eb769b75a" Panel.Bounds="211,523,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="32fc598c-166a-474d-a0fa-1c05a04fe0d2" Panel.Bounds="149,523,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="23b141b4-589f-4bb8-9e46-1b45a5b1dfd4" Panel.Bounds="87,523,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="f38ddb07-34af-4e34-9e01-c7e8cf3d1200" Panel.Bounds="25,523,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="a02c2002-6e0f-4cf9-990c-ee97d55700ed" Panel.Bounds="87,400,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="153afcc2-3878-403b-b4f7-eac968462197" Panel.Bounds="25,400,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="1d2f04ee-3940-4435-8077-ff054394cd9c" Panel.Bounds="273,347,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="ee3bc970-846f-4871-8c9f-f05b326b20fd" Panel.Bounds="211,347,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Label Text="Fruit &amp; Légumes" Id="7a32e7ab-d0c2-4b91-a7b8-535b5e4bfcf1" Panel.Bounds="25,113,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Label Text="Viandes  &amp; Poissons" Id="911c9890-2dd7-4e1d-ae81-a34d0f3a65d9" Panel.Bounds="25,311,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Label Text="Hygéène" Id="face4196-bf32-474c-8456-ae708d28da04" Panel.Bounds="25,488,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="4863d118-416f-4970-8863-76b2b1d30e29" Panel.Bounds="211,581,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="9aeb8388-866f-448d-a908-4bafa38f9dad" Panel.Bounds="149,581,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="68b3da67-59a4-4a03-8bb8-b63ad5e60e21" Panel.Bounds="87,581,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="b8ca3b7d-28b9-420f-8a3b-fd3752631454" Panel.Bounds="25,581,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="2f574129-51e0-4167-ba9a-5d73412b7996" Panel.Bounds="273,523,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Button Text="Button" Id="682940c6-860d-4d85-9319-afbc28da7dff" Panel.Bounds="273,584,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Title Text="Course Disney" FontSize="28" Id="df27b66f-f888-41b1-8cda-86a90cd71832" Panel.Bounds="83,12,201{5,2147483647},47*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Icon CatalogId="Check" Id="31f234e2-25d2-4042-a08b-7f301cac043e" Panel.Bounds="295,1,62{5,2147483647},62{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f23a883a-10b3-485a-9c2a-e25bef25d545">
+                            <Add.Item>
+                                <Icon CatalogId="Remove" Id="e50ce8ed-3224-43ed-af33-b90a56611b46" Panel.Bounds="3,1,62{5,2147483647},62{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

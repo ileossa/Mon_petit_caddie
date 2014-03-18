@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                            StartScreens="/Phone/login.screen" IndigoVersion="2">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="360,640">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

@@ -1,0 +1,207 @@
+﻿<?Infragistics.Models format="xaml" version="25"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="6d25e121-1516-4d2f-97b9-247855bfe862">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="02da603a-c98d-4bd4-861b-9f45b646c6bf">
+            <Content.Layers>
+                <Layer Id="604f8975-4358-47cb-9959-16a280800434" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="48a1823c-1ce0-4c73-b7ad-f5e798f746ec" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="9b1c90b7-380a-4389-827d-132461d43358" />
+            </Content.Viewbox>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/18/2014 23:03:12" Id="95d4783f-2ba0-441b-878c-130fb8462415">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d74e34d6-5bb3-48fc-b1cf-62e6ff341e8f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Title Text="Course Franprix" Align="Center" Id="86e39f8f-9c3c-4738-8d2b-26f988d98939" Panel.Bounds="0,57,360{5,2147483647},47*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <HotSpot Type="HotSpot" Thickness="1" IsClosed="True" Opacity="0.25" Id="fbcc43af-1c90-4558-9df8-08d51c9d6c17" Panel.Bounds="0,46,360,12">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="189b7e75-57b6-44d9-9b1b-2330670e0ba6" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="ac5ed290-3ed4-4ee3-99ea-625a76dfc767">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="351a8953-22f6-4492-a083-2946a602d004" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="c367eaaa-4633-46b3-95af-89d87893ccf8">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="ac5e0217-aa29-4593-8cc2-3d9d955ddced" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="7075c1e1-9717-4dd2-a21f-93bc803b00af">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="4a281432-1301-476e-873e-df591bbb4eda" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="1f28f452-e088-464a-bcfe-2233becb8608">
+                                            <Segment.EndPoint>
+                                                <Point Id="8a32e051-7317-45d5-9d2a-f53fc3d9d75f" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="ffdbecbc-ec85-4ba0-9406-b6c68e775927" Panel.Bounds="4,178,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox Text="CheckBox" IsVisible="False" Id="9bd842e2-a0bb-4845-9295-ba8de909ae06" Panel.Bounds="261,146,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="2d33d6af-c7d8-4896-9619-29b425d222e9" Panel.Bounds="313,185,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Tomate" Id="fa1b1dc3-f81e-4ff7-a92a-0d4c16fe6bc7" Panel.Bounds="53,187,235{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="bd336177-e9f6-4e4f-9413-e85c7e1b3f5c" Panel.Bounds="4,225,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="8a88d475-0658-430a-86b0-b5a4ceff8923" Panel.Bounds="313,232,28*,30*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Cerises" Id="c637d99f-1f3c-4413-8304-29a94de675e9" Panel.Bounds="53,234,235,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="f9d3a802-4c66-4856-b9be-c6fdfc5c6dcf" Panel.Bounds="4,274,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="e8eae8de-1bc1-455a-8bd3-d76696a3f3b5" Panel.Bounds="313,281,28*,30*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Avocat" Id="3c283a0c-2a53-4960-b35a-0b506ba0bae5" Panel.Bounds="53,283,235,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Fruits &amp; Légumes" Id="398a3601-3233-4bb0-9ac4-ece49e0c2b40" Panel.Bounds="19,137,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="3642ce17-d133-4fa2-bcfc-addf8fc1ca2c" Panel.Bounds="4,374,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="39f07911-66ac-4cb9-91a4-08dc116235fb" Panel.Bounds="313,381,28*,30*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Poulet" Id="6ddd64d3-e1e9-4e15-9290-178a129736e0" Panel.Bounds="53,383,235,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="04f3727c-0157-4a4f-ba9a-0a6af0c49bee" Panel.Bounds="4,421,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="7ef98ef5-5611-46f2-b647-e8b16a0022f5" Panel.Bounds="313,428,28*,30*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Mouton" Id="16b76edd-9603-4505-a964-091fa6b56cc4" Panel.Bounds="53,430,235,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Image SourcePath="assets/wallpaper-537404.jpg" Id="44397538-afe9-40c7-a895-2c10d36cc655" Panel.Bounds="4,470,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <CheckBox IsChecked="True" FontSize="20" Id="405f119a-ef3e-4d40-bd44-8d1afdb4e952" Panel.Bounds="313,477,28*,30*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Serpent" Id="fa2431f7-5cae-4db0-b4b1-67664d8666f0" Panel.Bounds="53,479,235,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Label Text="Viandes &amp; Poissins" Id="48210d3d-b36e-4d42-b087-ca5a3309bc15" Panel.Bounds="19,333,106*,18*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Icon CatalogId="Menu" Id="87b5f97c-a03c-4cb7-a56e-78add5b14564" Panel.Bounds="1,1,41{5,2147483647},41{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Icon Color="#FF830000" CatalogId="Two" Id="2e36bca0-5ba3-4114-9443-2ac9d0f3a4b2" Panel.Bounds="44,368,15{5,2147483647},15{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <Icon Color="#FF830000" CatalogId="Four" Id="c352380a-b22c-4306-9b3b-c89af6e82b99" Panel.Bounds="44,266,15{5,2147483647},15{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="604f8975-4358-47cb-9959-16a280800434">
+                            <Add.Item>
+                                <ContainerBox Id="7af0bab5-db64-4049-95a4-6e061dfd57ff" Panel.Bounds="-334,1,304{5,2147483647},639{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="1a2fdd64-fbaa-4718-8832-4ef00d583f19">
+                                            <Container.Children>
+                                                <Icon CatalogId="Squared Plus" Id="d5613f73-f49f-487c-af50-c16f285e66be" Panel.Bounds="105,543,87{5,2147483647},87{5,2147483647}" />
+                                                <Icon CatalogId="Gears" Id="7bb8ad86-711c-4b81-8586-70647f32c9d7" Panel.Bounds="11,515,57{5,2147483647},57{5,2147483647}" />
+                                                <Icon CatalogId="Gears" Id="da238ada-dfdf-4885-92f7-79c1c97370df" Panel.Bounds="31,568,37{5,2147483647},37{5,2147483647}" />
+                                                <Title Text="Menus" Align="Center" Id="3c357a5c-f103-4789-a2b0-919e6311ebfc" Panel.Bounds="9,9,284{5,2147483647},47*{5,2147483647}" />
+                                                <Label Text="Dernière liste utilisée" Id="4db510c3-69fe-453e-a8d9-ac20f6307b47" Panel.Bounds="11,88,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Franprix" Id="b9127180-35bb-4a16-a86c-0efdad8215a0" Panel.Bounds="31,122,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Carrefour" Id="2fdc8acb-9cfc-44d2-8776-1df5d627a9fb" Panel.Bounds="31,155,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Voir toutes les anciennes listes" Id="524ee733-9833-4294-9338-d72850bcc8ed" Panel.Bounds="31,190,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Mon budget" Id="14570cca-f4f7-4c14-a05e-281d7d0e1653" Panel.Bounds="3,264,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="dernier dépenses" Id="a3dab6ca-8009-441d-8b05-6511f4636c66" Panel.Bounds="31,291,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Historique dépenses" Id="c70b2980-f806-4bc5-a179-28037f053141" Panel.Bounds="31,322,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

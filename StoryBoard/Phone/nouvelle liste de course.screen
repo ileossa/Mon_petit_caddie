@@ -1,0 +1,81 @@
+﻿<?Infragistics.Models format="xaml" version="25"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="eadb00f3-e766-42a1-b4ff-08dbf09cce1a">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="1b610f75-81ce-452d-8d0e-e0510ce262f7">
+            <Content.Layers>
+                <Layer Id="cafcd019-760c-447e-b7ca-07ee0be2ed44" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="066a6ebc-9e6f-4bce-886e-03ae40f59559" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="833e669a-9741-4b2b-9c60-4733af8f6116" />
+            </Content.Viewbox>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/18/2014 22:41:23" Id="f1b42164-526f-4ad1-9218-d525f18187ac">
+            <Scene.KeyFrames>
+                <KeyFrame Id="53207833-fb0f-487d-9717-3474eecdf8df">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cafcd019-760c-447e-b7ca-07ee0be2ed44">
+                            <Add.Item>
+                                <ContainerBox Id="5a69b99d-e0d4-4bc5-8253-5e1e874dc840" Panel.Bounds="0,54,360{5,2147483647},586{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="371ef081-77cb-47ea-bb23-5a50ec42bdcd">
+                                            <Container.Children>
+                                                <Label Text="Liste Course mercredis" Id="f3b4d3bc-ebe2-4bca-86e6-6d68894ab0f2" Panel.Bounds="0,47,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Course Auchan" Id="ddd55114-dd12-4750-b79c-2fa6783c3b8c" Panel.Bounds="29,78,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Franprix" Id="12b973f9-9307-4a65-a2d5-f1e4ccfdc734" Panel.Bounds="29,109,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Carrefour" Id="6e432e34-3949-4349-bc6e-bc2b86ecb054" Panel.Bounds="29,143,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Récurrent" Id="06e7e1e1-9028-4347-b22d-0e582934beb4" Panel.Bounds="0,213,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Amazon" Id="c8b23e6f-0bb1-47c0-ac8b-84341d8c4e57" Panel.Bounds="29,248,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="Qwertee" Id="d2723419-24c6-494b-b3f2-ccb12a742e79" Panel.Bounds="29,274,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label Text="label 3" Id="ab98a728-3fe2-4680-afb4-b22aca3e0e26" Panel.Bounds="29,306,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cafcd019-760c-447e-b7ca-07ee0be2ed44">
+                            <Add.Item>
+                                <Icon CatalogId="Menu" Id="caecd589-7160-4d8e-8421-4b7443e44e8d" Panel.Bounds="4,4,44{5,2147483647},44{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cafcd019-760c-447e-b7ca-07ee0be2ed44">
+                            <Add.Item>
+                                <Label Text="NEW +" Align="Right" FontSize="36" FontStyle="Bold" Id="a8ad85a9-ac9f-4b59-a081-2a1db2c1179f" Panel.Bounds="245,4,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cafcd019-760c-447e-b7ca-07ee0be2ed44">
+                            <Add.Item>
+                                <ContainerBox Id="07cb53c2-ff7e-4eb1-bda0-b4115ea9fa13" Panel.Bounds="-334,1,304{5,2147483647},639{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="d51efcac-9225-4bf3-ad80-4d3e1876998e" Panel.Bounds="0,0,302*,637*">
+                                            <Container.Children>
+                                                <Icon CatalogId="Squared Plus" Id="9febcb05-9f53-44c8-9779-39a6c6ba1770" Panel.Bounds="105,543,87{5,2147483647},87{5,2147483647}" />
+                                                <Icon CatalogId="Gears" Id="1b11eb21-eb7c-4844-87b6-ed75d7b7a58f" Panel.Bounds="11,515,57{5,2147483647},57{5,2147483647}" />
+                                                <Icon CatalogId="Gears" Id="b2a5c9bc-16ca-4263-8163-f9cb20aa0a4a" Panel.Bounds="31,568,37{5,2147483647},37{5,2147483647}" />
+                                                <Title Text="Menus" Align="Center" Id="e5c727d4-83ec-474e-9023-5dd852d18053" Panel.Bounds="9,9,284,47*" />
+                                                <Label Text="Dernière liste utilisée" Id="68da3917-1a86-4011-bab2-d8dc9959261a" Panel.Bounds="11,88,128*,18*" />
+                                                <Label Text="Franprix" Id="82e36d9e-a485-41e4-8c9e-54349bba3c1e" Panel.Bounds="31,122,51*,18*" />
+                                                <Label Text="Carrefour" Id="28f007ec-72d5-42cf-ae32-47cecc26b1ef" Panel.Bounds="31,155,59*,18*" />
+                                                <Label Text="Voir toutes les anciennes listes" Id="fb648b68-8027-41fd-a41c-ef548b47c7c8" Panel.Bounds="31,190,186*,18*" />
+                                                <Label Text="Mon budget" Id="469ab84d-90e0-421b-aeb1-c6f6e41b99ad" Panel.Bounds="3,264,74*,18*" />
+                                                <Label Text="dernier dépenses" Id="fadea0ed-3785-4218-a156-9ead1f73de52" Panel.Bounds="31,291,107*,18*" />
+                                                <Label Text="Historique dépenses" Id="5beae90a-3589-4d7f-bb0c-0110de95e7a1" Panel.Bounds="31,322,125*,18*" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
