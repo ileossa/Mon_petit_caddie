@@ -1,0 +1,48 @@
+﻿<?Infragistics.Models format="xaml" version="25"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="322bb64b-7f84-4fa2-87a5-b682d6556348">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="d2aeeb3f-0983-4acc-ba71-ee8df7b903af">
+            <Content.Layers>
+                <Layer Id="f4198e1a-2ccc-47f0-b11d-b64bcfa9b3b7" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1eecd427-d26e-4bd1-b860-624c8651da1b" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="47ebcc51-1bb9-41f4-bc35-4d48b93a3098" />
+            </Content.Viewbox>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/20/2014 21:21:16" Id="2d717d86-be09-43a2-9d00-fd537c72646a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2171000d-a62c-4373-b6d0-041bac8f37ae">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f4198e1a-2ccc-47f0-b11d-b64bcfa9b3b7">
+                            <Add.Item>
+                                <Title Text="Mon petit cadies" Id="a9dbff52-4360-44d9-b9f9-90647e3e9daf" Panel.Bounds="48,184,263*,47*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f4198e1a-2ccc-47f0-b11d-b64bcfa9b3b7">
+                            <Add.Item>
+                                <Icon CatalogId="Checkout" Id="4f5f66c4-19fa-4b73-ab61-710e2df9b74f" Panel.Bounds="125,80,85{5,2147483647},85{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f4198e1a-2ccc-47f0-b11d-b64bcfa9b3b7">
+                            <Add.Item>
+                                <Icon CatalogId="Reload" Id="c950946c-a866-4f83-9b66-7d10fd9e277d" Panel.Bounds="116,354,102{5,2147483647},102{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f4198e1a-2ccc-47f0-b11d-b64bcfa9b3b7">
+                            <Add.Item>
+                                <Label Text="loading" Align="Center" FontSize="22" Id="2adc996c-f4c0-4cdc-926e-77f1a8ef602f" Panel.Bounds="129,296,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
