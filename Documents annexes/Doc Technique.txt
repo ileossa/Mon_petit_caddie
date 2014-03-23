@@ -1,0 +1,77 @@
+Doc Technique
+
+Pour répondre à la problématique: 
+	- Base de donnée
+	- Site Web
+	- application Burautique
+	- application mobile ( Android)
+
+
+Base de données
+---------------
+Nous allons utilisé une architecture avec le dévellopement d'une API, qui permetra de mettre en relation tous type de support avec la Base de donnée, via des commandes pré-formatées.
+Cela permet de garder le contrôle sur les demandes entre la partie système et celle du logiciel.C'est l'API qui adapteras, traiteras et organiseras les différents échanges grâce à des langages adaptés au besoin tels que le JSON ou bien le XML.
+
+
+Schéma -OK
+
+L'API seras réalisée en JavaEE. Les requetes serons des POST vers le serveur, contenant les différentes informations necessaires au traitement. 
+Le format de la réponse renvoyé seras en JSON, permettant d'avoir des réponses légères.
+
+Schéma deroulement étapes - En cours
+
+
+Technologies utilisées:
+	- MySql version 5.X
+	- JavaEE 7 (last update)
+	- Tomcat 7.X
+
+
+
+
+
+Site Web
+--------
+Site Web vitrine pour promouvoir l'outil  proposé, avec ces différents parties.
+Le site seras une simple page, qui avec un design dynamique suivant le type d'user-agent du navigateur.Si la personne est sur un smartphone tournant sous Android, il auras un design différents du user-agent Apple.
+Un diaporama seras insérer dans la pages, permettant de voir le panel d'outil en action, avec les explications en accors.
+
+Capture template - OK
+
+
+Technologies utilisées:
+	- xHtml
+	- Jquery 2.X
+	- Bootstrap 2.2.3
+
+
+
+
+
+Application Burantique
+----------------------
+Outils permettant d'administrer les informations de la solution.
+Le personnelle auras accés aux données des différents "produits" stocké dans la Base de donnée.
+Avoir des relevés d'informations en temps réel.
+
+Technologie utilisées:
+	- Java 7
+	- Kit de design
+
+
+
+
+Application mobile
+------------------
+Permet à l'utilisateur de créer des listes de courses, via un gestionnaire de produits et de quantitée.
+L'utilisateur pourras effectuer divers acions, création d'une nouvelle liste de course, modification d'un liste déjà créer, envoyer des rapports.
+Les actions automatique sont la synchronisation de la liste des produits, des liste de courses( ajouter, modifier, supprimer).
+L'application devrat avoir accès à plusieurs services au seins du smartphone:
+	- l'écriture, la lecture, la supression de donnée dans sont dossier personelle.
+	- l'accès au réseau mobile, wifi, ... pour la mise à jour des données.
+	- la position gps pour divers fonctionnalitée.
+L'application devrat être autonome hors-line, pour les diverses actions sur les listes de courses, via une base de donnée SQLite. La BDD interne devrat être constament synchronisé avec la base de donnée mère, qui se trouve sur le serveur.
+
+Technologie utilisées:
+	- ADK Android (JAVA)
+	- SQLite
