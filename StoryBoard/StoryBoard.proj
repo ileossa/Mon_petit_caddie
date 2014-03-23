@@ -2,9 +2,9 @@
 <Project xmlns="http://prototypes.infragistics.com/"
                                                             StartScreens="/Phone/login.screen" IndigoVersion="2">
     <Project.Defaults>
-        <ProjectDefaults Viewport="360,640">
+        <ProjectDefaults Viewport="1280,2600">
             <ProjectDefaults.Device>
-                <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+                <DeviceInfo Id="Browser" Orientation="None" />
             </ProjectDefaults.Device>
         </ProjectDefaults>
     </Project.Defaults>
