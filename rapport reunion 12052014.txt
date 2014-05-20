@@ -1,0 +1,15 @@
+une partie envoie de donnée
+ -> user  envoie sur le serveur , ou l inverse ou les 2
+ la sync d une liste suffis en temps que la syncro.
+
+Un partie web connecte a une DBB
+ -> le site vitrine suffis, non connecté a la base de donnée !!
+ -> creer un  espace membre, partage de la liste
+
+ Authentifcation
+ -> hors ligne, avec perte de fonctionnalité
+ -> email + mot de passe
+ -> login with google account google +  /// Facebook
+
+application lourde
+-> 
